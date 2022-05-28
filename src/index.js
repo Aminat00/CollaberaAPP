@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import MainContainer from './_MainContainer/_MainContainer';
+import { Cart } from './Cart/Cart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+ 
     <MainContainer />
   </React.StrictMode>
 );
